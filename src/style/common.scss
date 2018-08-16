@@ -1,0 +1,13 @@
+//以iphone7尺寸@2x 750像素宽的视觉稿为例
+@function vw($px) {
+  @return ($px / 750) * 100vw;
+}
+
+@function vh($px) {
+  @return ($px / 1334) * 100vh;
+}
+
+//保持纵宽比
+@function h($w, $h) {
+  @return vw($w)* ( $h / $w )
+}

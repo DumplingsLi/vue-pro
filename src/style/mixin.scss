@@ -1,0 +1,65 @@
+$themeColor: #ffcc33;
+$themeColorBlue: #00cc99;
+$borderStyle: 1px solid #ccc;
+
+//宽高
+@mixin wh($width, $height) {
+  width: vw($width);
+  height: h($width,$height);
+}
+
+//底部固定
+@mixin topFixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+//顶部固定
+@mixin bottomFixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+//弹性布局
+@mixin flex($type, $align:center, $direction: row) {
+    display: flex;
+    justify-content: $type;
+    align-items: $align;
+    flex-direction: $direction
+}
+
+//背景颜色
+@mixin bgc($color) {
+    background-color: $color;
+}
+
+@mixin bgi($imgUrl) {
+    background: url($imgUrl) no-repeat;
+    background-size: 100%;
+}
+
+@mixin bg(){
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+//标题样式:附近商家啥的
+@mixin title ($fontSize, $color: #333){
+    @include font($fontSize, $color);
+    font-weight: bold;
+}
+
+//字体样式
+@mixin font($size, $color, $fontWeight: normal){
+    font-size: vw($size);
+    color: $color;
+    font-weight: $fontWeight;
+}
+
+//文字居中
+@mixin fontCenter($lineHeight) {
+    line-height: vh($lineHeight);
+    text-align: center;
+}

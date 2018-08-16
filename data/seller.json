@@ -1,0 +1,42 @@
+{
+  "data": {
+    "id": 495579,
+    "name": "嘉和一品粥（交道口店）",
+    "address": "北京市东城区交道口天客隆超市2楼",
+    "shipping_time": "07：00-22：30",
+    "shipping_service": "提供高品质送餐服务",
+    "notice": "炎炎夏日，嘉和一品带您体验一碗粥的小幸福顶顶顶顶顶顶顶顶",
+    "discounts2": [{
+      "info": "可开发票",
+      "icon_url": "piao.jpg"
+    }, {
+      "info": "到店自取（享优惠）",
+      "icon_url": "qu.jpg"
+    }],
+    "poi_env": {
+      "thumbnails_url_list": [
+        "show1.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg",
+        "show2.jpg"
+      ]
+    },
+    "activity": [{
+      "pic_url": "jian.jpg",
+      "content": "满30减12；满60减18（在线支付专项）"
+    }, {
+      "pic_url": "zhe.jpg",
+      "content": "折扣商品3.3折起（在线支付专项）"
+    }, {
+      "pic_url": "xin.jpg",
+      "content": "本店新用户立减3元（在线支付专项），新用户立减17元"
+    }] 
+  },
+  "code": 1
+}
